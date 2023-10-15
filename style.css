@@ -1,0 +1,96 @@
+
+body {
+    background-color: rgb(224, 201, 168);
+}
+
+h1 {
+    color: rgb(93, 38, 15);
+}
+
+h1,
+p:not(.tarif) {
+    font-style: italic;
+}
+
+p {
+    font-weight: 600;
+    width: 186ch;
+}
+
+header + p {
+    width: 186ch;
+}
+
+.tarif > span {
+    font-weight: 500;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 29vw;
+}
+
+.dot {
+    color: white;
+    background-color: rgb(81, 30, 5);
+    align-self: start;
+    width: 0.5rem;
+    aspect-ratio: 1;
+    text-align: center;
+    line-height: 0;
+    padding-block-end: 0.2rem;
+    padding-inline: 0.1rem;
+    margin-block-start: 0.3rem;
+}
+
+.dot + ul {
+    margin: 0;
+}
+
+.dot + ul {
+    list-style-type: none;
+}
+
+.first {
+    padding-inline-start: 2.5rem;
+}
+ul span:not(.inside, .listItem) {
+    text-decoration: underline;
+    padding-inline-end: 1rem;
+}
+
+
+.inside {
+    color: rgb(93, 38, 15);
+    font-weight: 600;
+}
+
+.listItem {
+    display: inline-block;
+    margin-block: 1rem;
+    color: white;
+    background-color: rgb(149, 49, 0);
+    border-radius: 50vw;
+    font-weight: 600;
+}
+
+.sublist li {
+    list-style-type: disc;
+}
+
+.flex p {
+    text-align: end;
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    justify-self: end;
+    padding-inline-end: 23vw;
+    letter-spacing: 3px;
+}
+
+li {
+    line-height: 1.3;
+}
